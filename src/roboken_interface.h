@@ -3,7 +3,7 @@
 
 class Motor {
     public:
-    void motor_rotate(int speed) {
+    void rotate(int speed) {
         if(speed < 0) {
             this->ccw(-speed);
         }
